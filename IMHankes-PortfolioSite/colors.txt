@@ -1,0 +1,7 @@
+Colors:
+
+pink 1 = #f491fd
+pink 2 = #c383e6
+purp 0 = #c09dfc
+purp 1 = #8b83e5
+indi 2 = #8ea2fc
