@@ -1,0 +1,96 @@
+/* 
+FULL WEBSITE CASCADING STYLE SHEET
+BRIGHT BOLD COLORFUL STYLE 
+COLOR PALETTE:
+pink LT = #fc1cb2
+pink DK = #b01c82
+yellow = #fed530
+teal LT = #29c9cb
+teal DK = #1fb0b1
+*/
+body{
+	
+	background-color: #F8F7F3;
+}
+header{
+	font-family: PalmBeach;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 100px;
+	padding-top: 40px;
+    text-decoration: none;
+	color: #29C9CB;
+    display: flex;
+	justify-content: center;
+}
+.NavBar{
+	text-align: center;
+	background-color: #8B8B8B;
+	font-family: avenir;
+	font-weight: 100;
+	font-size: 18px;
+}
+.menubutton:link, .menubutton:visited {
+    background-color: #8B8B8B;
+    color: white;
+    padding: 8px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+.menubutton:hover, .menubutton:active {
+    background-color: #fc1cb2;
+}
+main{
+	background-image:url("/Users/izzyhankes/Creative Cloud Files/Market Downloads/pineapple in repeat.jpg");
+	background-size: 50%;
+}
+.content{
+	padding-right: 150px;
+	padding-left: 150px;
+}
+.post{
+	border: 5px solid #858585;
+	background-color: #fff;
+	color: #040404;
+	opacity: 0.95;
+}
+.space{
+	font-size: 8px;
+}
+.post p{
+	opacity: 1;
+    padding-right: 45px;
+	padding-left: 45px;
+	padding-bottom: 15px;
+	font-family: avenir;
+	font-size: 18px;
+    text-align: justify;
+}
+.post ul{
+	opacity: 1;
+    padding-right: 45px;
+	padding-left: 75px;
+	padding-bottom: 15px;
+	font-family: avenir;
+	font-size: 18px;
+    text-align: justify;
+}
+.post h2{
+	opacity: 1;
+	font-family: avenir;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 40px;
+	color: #fed530;
+	padding-left: 20px;
+}
+footer{
+	background-color: #1FB0B1;
+	font-family: avenir;
+	font-weight: 100;
+	font-size: 18px;
+	color: white;
+    padding: 8px;
+    text-align: center; 
+}
