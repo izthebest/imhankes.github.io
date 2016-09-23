@@ -1,0 +1,199 @@
+/* 
+FULL WEBSITE CASCADING STYLE SHEET
+NEUTRAL STYLE 
+*/
+.top{padding: 30px 55px 0px 55px;}
+header{
+	background-color: #FAF7F2;
+	font-family: bebasneue;
+    font-style: normal;
+    font-weight: 500;
+	font-size: 6em;
+	letter-spacing: 30px;
+    text-decoration: none;
+	text-align: center;
+	vertical-align: 1em;
+	color: #3A3953;
+	border: 12px solid #656391;
+}
+#tagline{
+	font-family: avenir;
+	font-size: 0.25em;
+	letter-spacing: 1em;
+	line-height: 0.15em;
+	padding-bottom: 15px;
+}
+.menubutton:link, .menubutton:visited {
+    background-color: #3A3953;
+	color: #FAF7F2;
+    padding: 10px 15px;
+    text-align: center; 
+    display: inline-block;
+	text-decoration: none;
+}
+.menubutton:hover, .menubutton:active {
+    background-color: #FCB99D;
+}
+main{
+	background-image:url("../img/polkadottedbdg.jpg");
+	background: 5%;
+}
+.content{
+	margin-left: 55px;
+}
+.post{
+	border: 12px solid;
+	background-color: #FAF7F2;
+	color: #3A3953;
+}
+.post p, .sidebar-content p{
+	font-family: avenir;
+	font-size: 18px;
+    text-align: left;
+}
+.post p{padding-right: 45px;
+	padding-left: 45px;
+	padding-bottom: 15px;}
+.post ul{
+    padding-right: 45px;
+	padding-left: 75px;
+	padding-bottom: 15px;
+	font-family: avenir;
+	font-size: 18px;
+    text-align: justify;
+}
+.post h2, .sidebar-content h2{
+	font-family: bebasneue;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 48px;
+	color: #FCB99D;
+}
+.post h2{padding-left: 45px;}
+.sidebar-content h2{padding-left: 5px;}
+.sidebar-content{
+    padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+.sidebar-content h2{
+	font-family: bebasneue;
+	font-size: 36px;
+    text-align: left;
+}
+.col-md-4{
+	padding-left: 0;
+	padding-right: 70px;
+}
+.sidebar {
+	border: 12px solid ;
+	background-color: #FAF7F2;
+	color: #3A3953;
+}
+#sidebartitle{
+    background-color: #3A3953;
+	color: #FAF7F2;
+    padding: 10px;
+    text-align: center; 
+    display: inline-block;
+}
+footer{
+	background-color: #1FB0B1;
+	font-family: avenir;
+	font-weight: 100;
+	font-size: 18px;
+	color: white;
+    padding: 8px;
+    text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RIBBON DECOR*/
+.non-semantic-protector { position: relative; z-index: 1; }
+
+.NavBar{
+	 font-family: avenir;
+	 font-weight: 100;
+	 font-size: 16px !important;
+	 /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+	
+	 width: 84%;
+		
+	 position: relative;
+	 background: #3A3953;
+	 color: #FAF7F2;
+	 text-align: center;
+	 padding: 0.2em 2px; /* Adjust to suit */
+	 margin: 0.5em 85px 1.5em;
+}
+.ribbon {
+	 font-family: avenir;
+	 font-weight: 100;
+	 font-size: 16px !important;
+	 /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+	
+	 width: 80%;
+		
+	 position: relative;
+	 background: #3A3953;
+	 color: #FAF7F2;
+	 text-align: center;
+	 padding: 0.2em 0em; /* Adjust to suit */
+	 margin: 0.5em 0px 1.5em 2em;
+}
+.NavBar:before, .NavBar:after, .ribbon:after, .ribbon:before {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 bottom: -1em;
+	 border: 1.5em solid #656391;
+	 z-index: -1;
+}
+.NavBar:before, .ribbon:before {
+	 left: -2em;
+	 border-right-width: 1.5em;
+	 border-left-color: transparent;
+}
+.NavBar:after, .ribbon:after {
+	 right: -2em;
+	 border-left-width: 1.5em;
+	 border-right-color: transparent;
+}
+.NavBar .NavBar-content:before, .NavBar .NavBar-content:after, .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 border-style: solid;
+	 border-color: #4C4B6D transparent transparent transparent;
+	 bottom: -1em;
+}
+.NavBar .NavBar-content:before, .ribbon .ribbon-content:before {
+	 left: 0;
+	 border-width: 1em 0 0 1em;
+}
+.NavBar .NavBar-content:after, .ribbon .ribbon-content:after {
+	 right: 0;
+	 border-width: 1em 1em 0 0;
+}
+.space{
+	font-size: 6px;
+}
