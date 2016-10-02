@@ -1,0 +1,127 @@
+/* 
+FULL WEBSITE CASCADING STYLE SHEET
+BRIGHT BOLD COLORFUL STYLE 
+COLOR PALETTE:
+pink LT = #fc1cb2
+pink DK = #b01c82
+yellow = #fed530
+teal LT = #29c9cb
+teal DK = #1fb0b1
+*/
+body{
+	margin: 0;
+	background-color: #F8F7F3;
+}
+header{
+	font-family: "retiro-std-48pt";
+    font-style: normal;
+    font-weight: 400;
+	font-size: 100px;
+	padding-top: 40px;
+    text-decoration: none;
+	color: #29C9CB;
+    display: flex;
+	justify-content: center;
+}
+.NavBar{
+	text-align: center;
+	background-color: #8B8B8B;
+	font-family: avenir;
+	font-weight: 100;
+	font-size: 18px;
+}
+.menubutton:link, .menubutton:visited {
+	background: #8B8B8B;
+    color: white;
+    padding: 8px 25px;
+    text-align: center; 
+    text-decoration: none;
+   transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+    display: inline-block;
+}
+.menubutton:hover, .menubutton:active {
+    background: #fc1cb2;
+}
+main{
+	background-image:url("../img/pineapple-pattern.jpg");
+	background-size: 50%;
+}
+.content{
+	padding-right: 150px;
+	padding-left: 150px;
+}
+.post{
+	border: 5px solid #858585;
+	background-color: #fff;
+	color: #040404;
+	opacity: 0.99;
+	font-family: avenir;
+	padding-bottom: 15px;
+}
+.space{
+	font-size: 8px;
+}
+.post p{
+	opacity: 1;
+    padding-right: 45px;
+	padding-left: 45px;
+	padding-bottom: 5px;
+	font-size: 18px;
+    text-align: justify;
+}
+.post ul{
+	opacity: 1;
+    padding-right: 45px;
+	padding-left: 75px;
+	padding-bottom: 5px;
+	font-size: 18px;
+    text-align: justify;
+}
+.post h2{
+	opacity: 1;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 40px;
+	color: #fed530;
+	padding-left: 20px;
+}
+.post button{
+	border: 3px solid #1FB0B1;
+	color: #fff;
+	background-color: #29C9CB;
+	opacity: 1;
+	font-family: avenir;
+	font-size: 12px;
+	padding: 10px;
+
+   transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+}
+.post button:hover, .post button:active {
+    background: #1FB0B1;
+}
+.box-button{
+	text-align: right;
+	padding-right: 20px;
+}
+.project-image{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+footer{
+	background-color: #1FB0B1;
+	font-family: avenir;
+	font-weight: 100;
+	font-size: 18px;
+	color: white;
+    text-align: center; 
+    position: relative;
+	right: 0;  
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+}

@@ -1,0 +1,83 @@
+/*
+FULL WEBSITE CASCADING STYLE SHEET (CSS)
+PASTEL STYLE
+COLOR PALETTE:
+pink LT = #f491fd
+pink DK = #c383e6
+purp LT = #c09dfc
+purp DK = #8b83e5
+indi DK = #8ea2fc
+
+blue/purple c7d8fd
+
+*/
+
+body{
+	background-image: url(images/final.jpg);
+}
+#pagetitle{
+	font-family: luna;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 72px;
+    text-align: center;
+    color: #a9cde7; /*dark*/
+	padding-top: 30px;
+}
+.content p, .content ul{
+    color: black;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.content h2{
+	font-family: LUNA;
+	font-size: 26px;
+	color: #C9BBFD;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+p, ul{
+	font-family: Opificio;
+	
+}
+.NavBar{
+	text-align: center;
+	background-color: #BBF3FE; /*lightlink*/
+}
+.menubutton:link, .menubutton:visited {
+    background-color: #BBF3FE; /*dark link*/
+    color: white;
+    padding: 10px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: Opificio;
+}
+
+.menubutton:hover, .menubutton:active {
+    background-color: #a9cde7;/*light link*/
+}
+.footer h4{
+	font-family: Opificio;
+	color: #C7D8FD; /*light*/
+	background-color: #A8ACE6;	/*dark*/
+	padding-bottom: 5px;
+	padding-top: 10px;
+	text-align: center;
+}
+/**
+.ProfileBio {}
+
+.PastProjects{}
+
+#pig{}
+
+#jukebox{}
+
+#hgsloth{}
+
+.Skills{}
+**/
