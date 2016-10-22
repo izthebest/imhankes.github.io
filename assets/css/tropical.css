@@ -113,6 +113,10 @@ main{
 	padding-top: 10px;
 }
 
+.project-img{
+	text-align: center;
+}
+
 footer{
 	background-color: #1FB0B1;
 	font-family: avenir;
