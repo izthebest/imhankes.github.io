@@ -124,6 +124,12 @@ form input{
 	margin: 0;
 	padding: 0;
 }
+.icon {
+	width: 62px;
+}
+.icon:hover {
+	opacity: 0.5;	
+}
 #follow h2{
 	margin: 0;
 	padding: 0;
@@ -138,4 +144,6 @@ footer{
 	font-family: "montserrat";
 	padding: 5px;
 }
-
+a {
+	text-decoration: none;	
+}
