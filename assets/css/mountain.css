@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url(montserrat-light.css);
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(https://github.com/google/fonts/blob/master/ofl/montserrat/Montserrat-Light.ttf);
+}
 /* CSS Document font-family: 'Montserrat', sans-serif;*/
 
 body {
