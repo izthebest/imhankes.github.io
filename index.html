@@ -3,97 +3,91 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-<script src="https://use.typekit.net/jtc0bxq.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<title>Isabel Hankes</title>
 
-<title>IMHankes's Portfolio</title>
 <!--CSS AND FONT LINKS-->
-<link rel="stylesheet" type="text/css" href="assets/css/tropical.css">
-<!--
-<link rel="stylesheet" type="text/css" href="CSS/neutral.css">
-<link rel="stylesheet" type="text/css" href="CSS/tropical.css">
-<link rel="stylesheet" type="text/css" href="CSS/pastel.css">
-<link rel="stylesheet" type="text/css" href="CSS/sweet.css">
--->
+<link rel="stylesheet" type="text/css" href="assets/css/mountain.css">
 
 </head>
 
 <body>
 
 <!--HEADER-->
-<header id="pagetitle" href="index.html">ISABEL HANKES</header>
-
-<!--NAVBAR-->
-
-
+<header></header>
 
 <main>
-<!--MAIN PAGE ENTRIES & CONTENT-->
 
-<div class="content">
+<!--NAVBAR-->
+<div class="NavBar">
+  <p>
+  
+    <a class="menubutton" href="#ProfileBio">WELCOME</a>
+    <a class="menubutton" href="#PastProjects"> PROJECTS</a>
+  <a class="menubutton" href="#Skills">SKILLS</a>
+  <a class="menubutton" href="#resume">RESUME</a>
+    <a class="menubutton" href="#contact">CONTACT</a></p>
+</div>
 <!--WELCOME POST-->
 	<div class="post" id="ProfileBio">
-	  <h2>welcome</h2>
-	  <p> Hello there! My name is Isabel Hankes. I am a homeschooled Junior interested in working in a computer science field.  Currently residing in Anchorage, Alaska, I am looking for any available positions for a teen in tech. <br>
-      Thank you for visiting my portfolio website but be warned that it is nowhere near complete! Check again soon.</p>
+	  <h2>WELCOME</h2>
+	  <p> Hello there! My name is Isabel Hankes. I am a homeschooled Junior with a passion for computer science. I graduated from the Girls Who Code 2016 Summer Immersion Program at Adobe Systems, Seattle.  Currently residing in Anchorage, Alaska, I am looking for any available positions for a teen in tech. <br>
+      Thank you for visiting my portfolio website! Check again soon.</p>
     </div>
     <p class="space">&nbsp;</p>
 
 <!--PAST PROJECTS-->  
 	<div class="post" id="PastProjects"> 
-        <h2>past projects</h2>
+        <h2>PAST PROJECTS</h2>
       <ul>
-        <li id="pig"><b>Pig:</b>
+        <li id="pig"><b>Pig</b><br>
         	A game of chance- roll the dice to collect points; if a ONE is rolled lose them all; 
-        	play against the computer or with a friend. CODED IN SCRATCH.<br>
-        	<img src="assets/img/PIG.png" height="200px" class="project-image" alt="img"></li>
-        <li id="jukebox"><b>Paddleboard:</b>
-        	Everyday paddleboard game controlled by mouse- top is inversed. Don't let the ball past the paddle.<br>
-        	<img src="assets/img/PADDLEBOARD.png" height="200px" class="project-image" alt="img"></li>
-        <li id="hgsloth"><b>Hangout Sloth:</b>
-        	A team project for Girls Who Code- social connectivity platform designed to connect teens 
-        	who may be struggling with depression or anxiety with others online and allow them to meet at a nearby Starbucks.
-        	<img src="assets/img/sloth.png" height="200px" class="project-image" alt="img"></li>
+        	play against the computer or with a friend. Made in Scratch.<br>
+        	<img src="assets/img/PIG.png" width="200px" class="project-image" alt="img"></li>
+        <li id="jukebox"><b>Paddleboard</b><br>
+        	Everyday paddleboard game controlled by mouse- top is inversed. Don't let the ball past the paddle. Made in Scratch.<br>
+        	<img src="assets/img/PADDLEBOARD.png" width="200px" class="project-image" alt="img"></li>
+        <li id="hgsloth"><b>Hangout Sloth</b><br>
+        	A team effort for our Girls Who Code final project- social connectivity platform designed to connect teens 
+        	who may be struggling with depression or anxiety with others online and allow them to meet at a nearby Starbucks.<br>
+        	<img src="assets/img/sloth.png" width="200px" class="project-image" alt="img"></li>
       </ul> 
   	</div>
     <p class="space">&nbsp;</p>
 
 <!--SKILLS-->   
 	<div class="post" id="Skills"> 
-      <h2>skills & qualifications</h2>
+      <h2>SKILLS &AMP; QUALIFICATIONS</h2>
         <p><strong>Languages:</strong> Scratch, Python, Pygames, HTML, CSS, JavaScript, Jade
         <br><strong>Worked with:</strong> MongoDB, NodeJS, Arduino Robots</p>
       <div class="box-button">
-        <button href="/assets/resume.pdf">click here to view resum&eacute;</button>
+        <button href="assets/resume.pdf" class="button">CLICK HERE TO VIEW RESUM&Eacute;</button>
       </div>
 	</div>
     <p class="space">&nbsp;</p>
     
-<!--RESUME-->  
-	<div class="post" id="Portfolio-Resume"> 
-        <h2>resume</h2>
-        <img src="assets/resume.pdf" width="70%" alt="resume">
-  	</div>
-    <p class="space">&nbsp;</p>
-    
 <!--CONTACT POST-->
 	<div class="post" id="contact">
-	  <h2>contact me</h2>
-	  <p> If you have any questions, inquiries, or would like to hire schedule a consultation for your website please leave your information below and I will get back to as soon as I can. Thank you.</p>
-      <form>
+	  <h2>CONTACT ME</h2>
+	  <p> If you have any questions, inquiries, or would like to schedule a consultation for your website please leave your information below and I will get back to as soon as I can. Thank you.</p>
+      <form action="action_page.php" method="post">
+      		Name:&nbsp;  <input type="text" name="name"><br>
+            Email: &nbsp; <input type="text" name="email"><br><br>
+            <input type="submit" value="SUBMIT" class="box-button button" id="submit">      
       </form>
     </div>
     <p class="space">&nbsp;</p>
     
-<!--END OF ENTRIES & CONTENT-->
-
-</div>
+<!--FOLLOW-->
+	<div class="post" id="follow">
+	  <h2>FOLLOW ME</h2>
+	  <img src="assets/img/linkedin-icon.png" href="" alt="linked in" width="62">&nbsp;<img src="assets/img/github-icon.png" href="" alt="github" width="62">&nbsp;<img src="assets/img/instagram-icon.png" href="" alt="instagram" width="62">
+    </div>
+    
 
 <!--FOOTER-->
-<footer>made by yours truly, Isabel Hankes<br>pineapple pattern courtesy of Adobe Assets</footer>
-
+<footer>DESIGNED BY YOURS TRULY<br>&copy;2016 ISABEL HANKES</footer>
 </main>
-
 </body>
 </html>

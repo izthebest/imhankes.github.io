@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+/* CSS Document font-family: 'Montserrat', sans-serif;*/
+
+body {
+  	line-height: 1.5;
+	margin: 0;
+}
+header{
+	background-image: url('../img/coverimage.jpg');
+	/* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.NavBar{
+	z-index: 10;
+	text-align: center;
+	background-color: #B0C6D4;
+	font-family: 'Montserrat Light';
+	font-size: 18px;
+	letter-spacing: 3px;
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+}
+
+.menubutton:link, .menubutton:visited {
+    color: white;
+    padding: 8px 25px;
+    text-align: center; 
+    text-decoration: none;
+   transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+    display: inline-block;
+}
+.menubutton:hover, .menubutton:active {
+    background: #EFDCCE;
+}
+main{
+	
+	background: url(../img/cover.jpg);
+	background-size: 150%;
+	position: bottom;
+}
+.post{
+	margin: 20px 100px;
+	padding: 10px 20px 10px;
+	background-color: #fff;
+	color: #040404;
+	opacity: 0.99;
+	font-family: "Montserrat Light";
+}
+.space{
+	font-size: 8px;
+}
+.post p, .post ul{
+    padding: 0px 45px 10px;
+	font-size: 18px;
+    text-align: justify;
+}
+.post ul{
+	padding-left: 75px;
+}
+.post h2{
+	font-family: "Montserrat";
+	font-size: 40px;
+	letter-spacing: 10px;
+	color: #F9CDBB;
+	text-align: center;
+	padding: 0px;
+}
+.post .button{
+	font-family: 'Montserrat';
+	font-size: 12px;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	background: #fff;
+	border: 2px solid;
+
+   transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+}
+form .button{
+	padding: 0px;
+}
+.post .button:hover, .post .button:active {
+    background: #F9CDBB;
+	color: white;
+}
+.box-button{
+	text-align: right;
+	padding-right: 20px;
+}
+.post img{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.project-img{
+	text-align: center;
+}
+
+form{
+	margin-right: 580px;
+	text-align: right;
+}
+form input{
+	background: #fff;
+	border: 2px solid;
+}
+
+#follow {
+	margin: 0px 340px 40px;
+	text-align: center;
+}
+#follow img{
+	margin: 0;
+	padding: 0;
+}
+#follow h2{
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+	color: #B0C6D4;
+}
+
+footer{
+	background-color: #B0C6D4;
+	color: white;
+	text-align: center;
+	font-family: "montserrat";
+	padding: 5px;
+}
+
