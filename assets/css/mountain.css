@@ -25,7 +25,7 @@ header{
 	z-index: 10;
 	text-align: center;
 	background-color: #B0C6D4;
-	font-family: 'Montserrat Light';
+	font-family: 'Montserrat-Light';
 	font-size: 18px;
 	letter-spacing: 3px;
 	position: -webkit-sticky;
@@ -58,7 +58,7 @@ main{
 	background-color: #fff;
 	color: #040404;
 	opacity: 0.99;
-	font-family: "Montserrat Light";
+	font-family: "Montserrat-Light";
 }
 .space{
 	font-size: 8px;
