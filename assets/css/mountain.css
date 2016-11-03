@@ -25,7 +25,7 @@ header{
 	z-index: 10;
 	text-align: center;
 	background-color: #B0C6D4;
-	font-family: 'Montserrat-Light';
+	font-family: 'Raleway';
 	font-size: 18px;
 	letter-spacing: 3px;
 	position: -webkit-sticky;
@@ -58,7 +58,7 @@ main{
 	background-color: #fff;
 	color: #040404;
 	opacity: 0.99;
-	font-family: "Montserrat-Light";
+	font-family: 'Raleway', sans-serif;
 }
 .space{
 	font-size: 8px;
@@ -145,7 +145,7 @@ footer{
 	background-color: #B0C6D4;
 	color: white;
 	text-align: center;
-	font-family: "montserrat";
+	font-family: "Raleway";
 	padding: 5px;
 }
 a {
