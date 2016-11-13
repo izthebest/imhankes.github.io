@@ -11,6 +11,7 @@ body {
 	margin: 0;
 }
 header{
+	background-position: center top;
 	background-image: url('../img/coverimage.jpg');
 	/* Set a specific height */
     height: 25em; 
