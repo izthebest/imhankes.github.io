@@ -9,11 +9,41 @@
 
 <!--CSS AND FONT LINKS-->
 <link rel="stylesheet" type="text/css" href="assets/css/mountain.css">
-
+<style>
+	@media (min-width: 750px){
+		body{font-size: 24px;}
+}
+	@media (max-width: 500px){
+		body{font-size: 12px;}
+		header{
+			height: 15em; 
+		}
+		#skills-title{
+			font-size: 1.5em;
+		}
+		#follow{
+			margin: 0em 5em 2em;
+		}
+		.icon{
+			width: 6em;
+		}
+}
+</style>
+<link href="assets/css/sm-mountain.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-
+<script>
+(function () {
+        var body = document.body,
+                e = document.documentElement,
+                scrollPercent;
+        $(window).unbind("scroll").scroll(function () {
+            scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+            main.style.backgroundPosition = "0px " + scrollPercent + "%";
+        });
+})();
+</script>
 <!--HEADER-->
 <header></header>
 
@@ -27,7 +57,7 @@
     
     <a class="menubutton" href="#Skills">SKILLS</a>
     
-    <a class="menubutton" href="#PastProjects"> PROJECTS</a>
+    <a class="menubutton" href="#PastProjects">PROJECTS</a>
   	
     <a class="menubutton" href="#contact">CONTACT</a></p>
 </div>
@@ -40,7 +70,7 @@
     <p class="space">&nbsp;</p>
 <!--SKILLS-->   
 	<div class="post" id="Skills"> 
-      <h2>SKILLS &AMP; QUALIFICATIONS</h2>
+      <h2 id="skills-title">SKILLS &AMP; QUALIFICATIONS</h2>
         <p><strong>Languages:</strong> Python, HTML, CSS, ProcessingJS
         <br><strong>Worked with:</strong> MongoDB, NodeJS, Arduino Robots</p>
       <div class="box-button">
