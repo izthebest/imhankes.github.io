@@ -11,14 +11,13 @@ body {
 	margin: 0;
 }
 header{
-	background-position: center top;
 	background-image: url('../img/coverimage.jpg');
 	/* Set a specific height */
     height: 25em; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
 }
