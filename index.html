@@ -1,146 +1,197 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-<title>Isabel Hankes</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hankes Portfolio</title>
 
-<!--CSS AND FONT LINKS-->
-<link rel="stylesheet" type="text/css" href="assets/css/mountain.css">
-<style>
-	@media (min-width: 750px){
-		body{font-size: 24px;}
-}
-	@media (max-width: 500px){
-		body{font-size: 12px;}
-		header{
-			background-image: url('../img/cover.jpg');
-			background-size: 50em;
-			height: 25em; 
-		}
-		.post{
-			margin: 1.5em 2em;
-			padding: 1em 2em 1em;
-		}
-		.post p{
-			text-align: justify;
-		}
-		.post h2{
-			font-size: 1.75em;
-		}
-		#skills-title{
-			font-size: 1.25em;
-		}
-		#follow{
-			font-size: 0.75em;
-			margin: 0em 5em 2em;
-		}
-		.icon{
-			width: 6em;
-		}
-}
-	@media (width: 375px){
-		header{
-			background-size: 375px;
-			height: 161px; 
-		}
-}
-</style>
-<link href="assets/css/sm-mountain.css" rel="stylesheet" type="text/css">
+	<!-- Bootstrap -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	<script src="https://use.typekit.net/yjx6cau.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/minimal.css">
 </head>
 
 <body>
-<script>
-(function () {
-        var body = document.body,
-                e = document.documentElement,
-                scrollPercent;
-        $(window).unbind("scroll").scroll(function () {
-            scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
-            main.style.backgroundPosition = "0px " + scrollPercent + "%";
-        });
-})();
-</script>
-<!--HEADER-->
-<header></header>
+
+<!--NAVBAR-->
+<nav>
+ <div class="row">
+    <div class="col col-xs-12 center col-sm-3">
+   	  <img src="assets/img/isabel-hankes-logo.png" alt="IMHankes" id="logo">
+	</div>
+     
+	  <div class="col col-xs-12 col-sm-2">
+	  	<p class="center">
+	  	  <a class="menu" href="#welcome">
+	  		WELCOME
+		  </a>
+		</p>
+	  </div>
+	  
+	  <div class="col col-xs-12 col-sm-2">
+	  	<p class="center">
+	  	  <a class="menu" href="#projects">
+	  		PROJECTS
+	  	  </a>
+	  	</p>
+	  </div>
+	  
+	  <div class="col col-xs-12 col-sm-2">
+	  	<p class="center">
+	  	  <a class="menu" href="#skills">
+	  		SKILLS
+	  	  </a>
+	  	</p>
+	  </div>
+	  
+	  <div class="col col-xs-12 col-sm-2">
+	    <p class="center">
+	  	  <a class="menu" href="#contact">
+	  		CONTACT
+	      </a>
+	  	</p>
+	  </div>
+	</div> 
+</nav>
 
 <main>
 
-<!--NAVBAR-->
-<div class="NavBar">
-  <p>
-  
-    <a class="menubutton" href="#ProfileBio">WELCOME</a>
-    
-    <a class="menubutton" href="#Skills">SKILLS</a>
-    
-    <a class="menubutton" href="#PastProjects">PROJECTS</a>
-  	
-    <a class="menubutton" href="#contact">CONTACT</a></p>
-</div>
 <!--WELCOME POST-->
-	<div class="post" id="ProfileBio">
-	  <h2>WELCOME</h2>
-	  <p> Hello there! My name is Isabel Hankes. I am a homeschooled Junior with a passion for computer science. I graduated from the Girls Who Code 2016 Summer Immersion Program at Adobe Systems, Seattle. Currently residing in Anchorage, Alaska, I help teach the Free Code Camp at the Z J Loussac Library. I am looking for any available positions for a teen in tech. <br>
-      Thank you for visiting my portfolio website! Check back soon.</p>
+<div class="container-fluid" id="welcome">
+	<div class="row">
+  	<div class="hex-pic col-sm-4 col-md-offset-1 col-md-3">
+	  <div class="hexagon col col-xs-5 col-md-3 col-md-offset-2">
+  		<div class="hexTop"></div>
+  		<div class="hexBottom"></div>
+	  </div>
+	</div>
+		
+		<div class="col">
+			<h2 class="text-right"><b>HI THERE! I'M ISABEL&nbsp;</b></h2>
+		  <p class="text-right col-md-offset-0 col-md-8">
+    		<i>Web Designer, Photographer, &amp; Librarian </i> 
+     		<br>Anchorage, Alaska <br>
+     		<br>Graduated from the Girls Who Code 2016 Summer Immersion Program at Adobe Systems, Seattle.
+     		<br>Join me for the Free Code Camp at Z J Loussac Library<br>
+     		<br>Scroll down to view my resum&eacute;, project portfolio, or to contact me.</p>
+	  </div>
     </div>
-    <p class="space">&nbsp;</p>
+</div> 
+   
+<!--PAST PROJECTS-->  
+	<div class="container-fluid" id="projects"> 
+        <div class="row">
+          <div class="col">
+			<h2><b>PROJECTS</b></h2>
+		  </div>
+          <div class="center">
+		  <div class="col portfolio">
+			<img src="assets/img/hgsloth.png" alt="hangout sloth" class="portfolio">
+		  </div>
+		  
+		  <div class="col portfolio">
+			<img src="assets/img/hgsloth-alg.png" alt="algorithm" class="portfolio">
+		  </div>
+		  
+		  <div class="col portfolio">
+			<img src="assets/img/sloth.PNG" alt="hgsloth" class="portfolio">
+		  </div>
+		  </div>
+		  <div class="col col-fix">
+			<p class="col-md-10 col-md-offset-1"><b>Hangout Sloth:</b><br> A social connectivity platform to bring together teens struggling with mental illness or who just need to be heard created as a team project. I primarily worked on creating the user database with mongoDB and nodeJS, as well as the matching algorithm.</p>
+			</div>
+		  
+		</div>
+		<div class="row">
+		  <div class="col-xs-12 col-lg-5  col-md-offset-2 col-md-4 col-sm-4 col-sm-offset-2">
+			<img src="assets/img/pig.png" alt="pig" class="portfolio">
+		  </div>
+		  <div class="col-xs-12 col-md-4 col-sm-4">
+			<img src="assets/img/paddleboard.png" alt="paddleboard" class="portfolio">
+		  </div>
+		  <div class="col col-fix">
+			<p class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10"><b>Scratch Games:</b><br> PIG is a dice game in which a player plays against an automatic user. PADDLEBALL, a two player game, uses mouse and keyboard controls to control paddles to bounce a ball, which progressively increases speed, past the other's paddle.</p>
+		  </div>
+		</div>
+  	</div>
+
 <!--SKILLS-->   
-	<div class="post" id="Skills"> 
-      <h2 id="skills-title">SKILLS &AMP; QUALIFICATIONS</h2>
+	<div class="container-fluid" id="skills"> 
+		<h2 id="skills-title"><b>SKILLS &AMP; QUALIFICATIONS</b></h2>
         <p><strong>Languages:</strong> Python, HTML, CSS, ProcessingJS
         <br><strong>Worked with:</strong> MongoDB, NodeJS, Arduino Robots</p>
       <div class="box-button">
-        <a href="assets/isabel-hankes-resume.pdf"> <button class="button">CLICK HERE TO VIEW RESUM&Eacute;</button></a>
+        <a href="assets/isabel-hankes-resume.pdf"> <button class="rect-button">CLICK HERE TO VIEW RESUM&Eacute;</button></a>
       </div>
 	</div>
-    <p class="space">&nbsp;</p>
-<!--PAST PROJECTS-->  
-	<div class="post" id="PastProjects"> 
-        <h2>PAST PROJECTS</h2>
-      <ul>
-        <li id="pig"><b>Pig</b><br>
-        	A game of chance- roll the dice to collect points; if a one is rolled lose them all; 
-        	play against the computer or with a friend. Made in Scratch.<br>
-        	<img src="assets/img/PIG.PNG" width="200px" class="project-image" alt="Pig"></li>
-        <li id="paddleboard"><b>Paddleboard</b><br>
-        	Everyday paddleboard game controlled by mouse- top is inverted. Don't let the ball past the paddle. Made in Scratch.<br>
-        	<img src="assets/img/PADDLEBOARD.PNG" width="200px" class="project-image" alt="Paddleboard"></li>
-        <li id="hgsloth"><b>Hangout Sloth</b><br>
-        	A team effort for our Girls Who Code final project- social connectivity platform designed to connect teens 
-        	who may be struggling with depression or anxiety with others online and allow them to meet at a nearby Starbucks.<br>
-        	<img src="assets/img/sloth.PNG" width="200px" class="project-image" alt="hgsloth"></li>
-      </ul> 
+	
+
+ <!--CONTACT POST-->
+	<div class="container-fluid">
+		<div class="row">
+		  <div class="col col-sm-6" id="contact">
+			<h2><b>CONTACT</b></h2>
+	  		<p> If you have any questions, inquiries, or would like to schedule a consultation for your website please leave your information below and I will get back to as soon as I can. Thank you.
+      		
+      		<form method="POST" action="http://formspree.io/isabel.hankes@gmail.com" id="form">
+  			Email<br>
+  	  	  	
+  	  	  	<input type="email" name="email" placeholder="name@email.com" id="email-input"><br>
+  			Message<br>
+ 		  	
+  		  	<textarea name="message" placeholder="Your message" class="outline" id="message-input"></textarea><br>
+  			<button type="submit" class="box-button button">SUBMIT</button>
+	</form>
+  	</p>
   	</div>
-    <p class="space">&nbsp;</p>
 
-
-    
-<!--CONTACT POST-->
-	<div class="post" id="contact">
-	  <h2>CONTACT ME</h2>
-	  <p> If you have any questions, inquiries, or would like to schedule a consultation for your website please leave your information below and I will get back to as soon as I can. Thank you.</p>
-      <form action="action_page.php" method="post">
-      		Name:&nbsp;  <input type="text" name="name"><br>
-            Email: &nbsp; <input type="text" name="email"><br><br>
-            <input type="submit" value="SUBMIT" class="box-button button" id="submit">      
-      </form>
-    </div>
-    <p class="space">&nbsp;</p>
-    
 <!--FOLLOW-->
-	<div class="post" id="follow">
-	  <h2>FOLLOW ME</h2>
-	  <a href="http://www.linkedin.com/in/im-hankes" target="_blank"><img src="assets/img/linkedin-icon.png" alt="linked in" class="icon"></a>&nbsp;
-      <a href="https://github.com/izthebest" target="_blank"><img src="assets/img/github-icon.png" alt="github" class="icon"></a>&nbsp;
-      <a href="http://www.instagram.com/iz.thebest" target="_blank"><img src="assets/img/instagram-icon.png" alt="instagram" class="icon"></a>
+			<div class="col col-sm-6" id="follow">
+				<h2><b>FOLLOW</b></h2>
+			<div class="center">
+		<!--Linkd In-->
+			  	<a href="http://www.linkedin.com/in/im-hankes" target="_blank">
+			  		<img src="assets/img/logo-li-hex.png" alt="linked in" class="fade icon" width="20%">
+			  	</a>
+		  	
+		  	
+		<!--Github-->  	
+			  	<a href="https://github.com/izthebest" target="_blank">
+			  		<img src="assets/img/logo-gh-hex.png" alt="github" class="fade icon" width="20%">
+			  	</a>
+			
+	  	<!--Instagram-->
+			  <a href="http://www.instagram.com/iz.thebest" target="_blank">
+			  	<img src="assets/img/logo-ig-hex.png" alt="instagram" class="fade icon" width="20%">
+			  </a>
+    	  </div>
+    	</div>
     </div>
-    
 
+</main>	
+  	  
 <!--FOOTER-->
-<footer>DESIGNED BY YOURS TRULY<br>&copy;2016 ISABEL HANKES</footer>
-</main>
+<footer><div class="center"><h2>
+	#madebyizthebest
+</h2></div></footer>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="assets/js/bootstrap.js"></script>
+
 </body>
 </html>

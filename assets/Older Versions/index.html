@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<title>Isabel Hankes</title>
+
+<!--CSS AND FONT LINKS-->
+<link rel="stylesheet" type="text/css" href="assets/css/mountain.css">
+<style>
+	@media (min-width: 750px){
+		body{font-size: 24px;}
+}
+	@media (max-width: 500px){
+		body{font-size: 12px;}
+		header{
+			background-size: 50em;
+			height: 25em; 
+		}
+		.post{
+			margin: 1.5em 2em;
+			padding: 1em 2em 1em;
+		}
+		.post p{
+			text-align: justify;
+		}
+		.post h2{
+			font-size: 1.75em;
+		}
+		#skills-title{
+			font-size: 1.25em;
+		}
+		#follow{
+			font-size: 0.75em;
+			margin: 0em 5em 2em;
+		}
+		.icon{
+			width: 6em;
+		}
+}
+	@media (width: 375px){
+		header{
+			background-size: 375px;
+			height: 161px; 
+		}
+}
+</style>
+<link href="assets/css/sm-mountain.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<script>
+(function () {
+        var body = document.body,
+                e = document.documentElement,
+                scrollPercent;
+        $(window).unbind("scroll").scroll(function () {
+            scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+            main.style.backgroundPosition = "0px " + scrollPercent + "%";
+        });
+})();
+</script>
+<!--HEADER-->
+<header>ISABEL HANKES</header>
+
+<main>
+
+<!--NAVBAR-->
+<div class="NavBar">
+  <p>
+  
+    <a class="menubutton" href="#ProfileBio">WELCOME</a>
+    
+    <a class="menubutton" href="#Skills">SKILLS</a>
+    
+    <a class="menubutton" href="#PastProjects">PROJECTS</a>
+  	
+    <a class="menubutton" href="#contact">CONTACT</a></p>
+</div>
+<!--WELCOME POST-->
+	<div class="post" id="ProfileBio">
+	  <h2>WELCOME</h2>
+	  <p> Hello there! My name is Isabel Hankes. I am a homeschooled Junior with a passion for computer science. I graduated from the Girls Who Code 2016 Summer Immersion Program at Adobe Systems, Seattle. Currently residing in Anchorage, Alaska, I help teach the Free Code Camp at the Z J Loussac Library. I am looking for any available positions for a teen in tech. <br>
+      Thank you for visiting my portfolio website! Check back soon.</p>
+    </div>
+    <p class="space">&nbsp;</p>
+<!--SKILLS-->   
+	<div class="post" id="Skills"> 
+      <h2 id="skills-title">SKILLS &AMP; QUALIFICATIONS</h2>
+        <p><strong>Languages:</strong> Python, HTML, CSS, ProcessingJS
+        <br><strong>Worked with:</strong> MongoDB, NodeJS, Arduino Robots</p>
+      <div class="box-button">
+        <a href="assets/isabel-hankes-resume.pdf"> <button class="button">CLICK HERE TO VIEW RESUM&Eacute;</button></a>
+      </div>
+	</div>
+    <p class="space">&nbsp;</p>
+<!--PAST PROJECTS-->  
+	<div class="post" id="PastProjects"> 
+        <h2>PAST PROJECTS</h2>
+        <img src="assets/img/PIG.PNG" width="200px" class="project-image fade frame-square" alt="Pig">
+        <img src="assets/img/PADDLEBOARD.PNG" width="200px" class="project-image fade frame-square" alt="Paddleboard">
+        <img src="assets/img/sloth.PNG" width="40%" class="project-image fade frame-square" alt="hgsloth">
+      <ul>
+        <li id="pig"><b>Pig</b><br>
+        	A game of chance- roll the dice to collect points; if a one is rolled lose them all; 
+        	play against the computer or with a friend. Made in Scratch.<br>
+        	</li>
+        <li id="paddleboard"><b>Paddleboard</b><br>
+        	Everyday paddleboard game controlled by mouse- top is inverted. Don't let the ball past the paddle. Made in Scratch.<br>
+        	</li>
+        <li id="hgsloth"><b>Hangout Sloth</b><br>
+        	A team effort for our Girls Who Code final project- social connectivity platform designed to connect teens 
+        	who may be struggling with depression or anxiety with others online and allow them to meet at a nearby Starbucks.<br>
+        	</li>
+      </ul> 
+  	</div>
+    <p class="space">&nbsp;</p>
+
+
+ <!--CONTACT POST-->
+	<div class="post" id="contact">
+	  <h2>CONTACT ME</h2>
+	  <p> If you have any questions, inquiries, or would like to schedule a consultation for your website please leave your information below and I will get back to as soon as I can. Thank you.
+      <form method="POST" action="http://formspree.io/isabel.hankes@gmail.com" id="form">
+  		Email<br><input type="email" name="email" placeholder="Your email" id="email-input"><br>
+  		Message<br><textarea name="message" placeholder="Your message" class="outline" id="message-input"></textarea><br>
+  		<button type="submit" class="box-button button">SUBMIT</button>
+	</form>
+  	</p>
+    </div>   
+<p class="space">&nbsp;</p>
+
+<!--FOLLOW-->
+	<div class="post" id="follow">
+	  <h2>FOLLOW ME</h2>
+	  <a href="http://www.linkedin.com/in/im-hankes" target="_blank"><img src="assets/img/linkedin-icon.png" alt="linked in" class="fade icon"></a>&nbsp;
+      <a href="https://github.com/izthebest" target="_blank"><img src="assets/img/github-icon.png" alt="github" class="fade icon"></a>&nbsp;
+      <a href="http://www.instagram.com/iz.thebest" target="_blank"><img src="assets/img/instagram-icon.png" alt="instagram" class="fade icon"></a>
+    </div>
+    
+<!--FOOTER-->
+<footer>DESIGNED BY YOURS TRULY<br>&copy;2016 ISABEL HANKES</footer>
+</main>
+</body>
+</html>

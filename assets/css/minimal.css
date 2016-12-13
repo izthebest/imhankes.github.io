@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+/* CSS Document*/
+
+/*BASICS*/
+body{
+	background-color: #F5F5F5;
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: 500;
+	color: #030103;
+	font-size: 1.25em;
+}
+
+h2{
+	font-family: "skolar-sans-latin", sans-serif;
+	font-weight: 500;
+}
+
+/*ALIGNMENTS*/
+.center{
+	
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+	align-items: center;	
+}
+
+.right{
+	align-content: right;
+	text-align: right;
+	justify-content: right;
+	align-items: right;	
+}
+
+.left{
+	align-content: left;
+	text-align: left;
+	justify-content: left;
+	align-items: left;	
+}
+
+.bottom{
+	vertical-align: bottom;
+}
+
+.small{
+	margin: 100px;
+	padding: 100px;
+}
+
+
+/*NAVIGATION MENU*/
+nav{
+	margin: 0;
+	z-index: 100;
+  	top: 0;
+	background-color: #FFF;
+	
+}
+
+nav a{
+	text-align: center;
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 1.75em;
+	color: #000;
+	border-bottom: thin solid #fff;
+}
+
+.menu:link, .menu:visited {
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	
+}
+.menu:hover, .menu:active {
+    color: #1DA4CD;
+	border-bottom: thin solid #1DA4CD;
+	transition: background .25s ease-in-out;
+    	-moz-transition: background .25s ease-in-out;
+    	-webkit-transition: background .25s ease-in-out;
+}
+
+#logo{
+	width: 150px;
+	align-items: center;
+	align-self: center;
+}
+
+
+/*MAIN*/
+
+main{
+	padding: 5px;
+}
+
+main .container, main .container-fluid{
+	margin: 25px 20px;
+	padding: 0px 30px 15px;
+	background-color: #fff;
+}
+
+/*HEXAGON*/
+.hex-pic{
+	padding: 20px;
+}
+ 
+.hexagon {
+  position: relative;
+ width: 200px; 
+  height: 115.47px;
+  margin: 57.74px 0;
+  background-image: url(../img/profile.png);
+  background-position: center;
+  background-size: auto 230.9401px;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 29.29px;
+}
+
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 200.0000px;
+  height: 115.47005383792516px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -70.7107px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -70.7107px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 200.0000px;
+  height: 115.4701px;
+  z-index: 2;
+  background: inherit;
+}
+
+.portfolio{
+	height: 250px;
+	float: left;
+	align-content: center;
+	vertical-align: top;
+}
+
+#projects img{
+	display: block;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	
+}
+
+.col-fix{
+	margin: 20px;
+}
+
+.icon{
+	opacity: 1;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.circle-img{
+	width: 100%;
+	border-radius: 50%;
+	align-content: center;
+}
+
+button{
+	border: none;
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 1.25em;
+	text-decoration: none;
+	background-color: #fff;
+	border-bottom: thin solid #28A4CC;
+	color: #28A4CC;
+}
+
+button:hover, button:active{
+	color: #fff;
+	background-color: #FFEA0D;
+	border-bottom: thin solid #FFEA0D;
+	
+	transition: background 1s ease-in-out;
+    	-moz-transition: background 1s ease-in-out;
+    	-webkit-transition: background 1s ease-in-out;
+}
+
+form{
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 1em;
+}
+
+form input, form textarea{
+	border: thin solid #000;
+}
+
+.fade:hover{
+	opacity: 0.1;
+}
+
+footer{
+  	padding: 0 0px 0.5em;
+	background-color: #28A4CC;
+	color: #fff;
+}
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	#logo{
+	width: 150px;
+	align-items: left;
+	align-self: left;
+	margin: 2px 15px;
+}
+	
+	nav {
+		position: -webkit-sticky;
+  		position: sticky;
+		font-size: 0.9em;
+}
+	.menu {
+		vertical-align: baseline;
+		margin: 70px 0px 0px;
+	}
+	
+	#contact{
+		border-right: thin solid #C2C2C2;
+	}
+	
+    	
+	}
+	
+
+/*Desktop View*/
+
+@media (min-width: 992px){
+	
+}
